@@ -5,7 +5,8 @@ terraform {
     key     = "site2/terraform.tfstate"
     region  = "us-east-2"
     encrypt = true
-    user_lockfile = true
+    use_lockfile = true
 
   }
 }
+
